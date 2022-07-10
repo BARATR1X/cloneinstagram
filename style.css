@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+.flex-instagram {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;    
+  margin-top: 50px;
+}
+
+.flex-instagram .celular {
+  position: relative;
+}
+
+.flex-instagram .celular .flex-relative{  
+  position: relative;
+}
+
+.galery {
+    height: 521px;
+    left: 155px;    
+    position: absolute;
+    top: 26px;    
+    width: 250px;
+    overflow: hidden;
+}
+
+.galery .fotos {
+  width: 500%;
+  animation-name: animation;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.galery .fotos img{
+  width: 19.9%;
+}
+
+.flex-instagram .instagram{
+  width: 80%;
+    height: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;   
+    
+}
+
+
+.flex-instagram .instagram .flex-center {  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.flex-instagram .instagram .flex-center .login{   
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #cdc3c3;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;  
+  margin: 20px 20px 20px 20px;
+}
+.flex-instagram .instagram .flex-center .login .flex-login .form {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .inst{  
+  justify-content: center;  
+  align-items: center;
+  
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form input {
+  background-color: #fafafa;
+  padding: 9px 0 7px 8px;
+  font-size: 14px;
+  line-height: 18px;
+  border: 0;
+  width: 258px;
+  height: 100%;
+  color: #000;
+  border: 1px solid #cdc3c3;
+  border-radius: 4px;
+  flex-direction: row;
+  padding-right: 8px;
+  vertical-align: middle;
+  margin: 8px 40px;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .btn button{  
+  background-color: #0095f6;
+  color: #fafafa;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  flex-direction: row;
+  padding: 9px 0 7px 8px;
+  vertical-align: middle;  
+  width: 258px;
+  height: 100%;
+  margin: 8px 40px;
+}
+
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .divi .trass {  
+ 
+  position: relative;
+  color: #cdc3c3;
+  font-size: 10px;
+}
+
+
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .divi {
+  display: flex;
+  justify-content: center;
+  margin: 10px 40px 18px; 
+
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .divi .tras {  
+ 
+  position: relative;
+  color: #8e8e8e;
+  font-size: 20px;
+  margin: 0 18px;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .bnt {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .bnt .flex-bnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.flex-instagram .instagram .flex-center .login .flex-login .form .bnt .flex-bnt .face{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color:#0095f6;
+  margin-bottom: 20px;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .bnt .flex-bnt .face img{
+  width: 28px;
+  height: 0 auto;
+
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .bnt .flex-bnt .face .text{
+  padding: 10px;
+  text-decoration: none;
+  color: #385185;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-login .form .password {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-cadastro {
+  width: 100%;
+  align-items: center;    
+  border-radius: 1px;  
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-cadastro .span{
+  width: 100%;
+  align-items: center;    
+  border-radius: 1px;
+  margin: 0;
+  padding: 20px 47px;
+  text-decoration: none;
+}
+
+.flex-instagram .instagram .flex-center .login .flex-cadastro .span .cadastro{
+    align-items: center;    
+    border-radius: 1px;
+    margin: 20px 10px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 14px;
+}
+
+.flex-instagram .instagram .flex-center p{
+  padding: 10px;
+  
+}
+
+.flex-instagram .instagram .flex-center .app{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.flex-instagram .instagram .flex-center .app img{
+  width: 150px;
+  height: 0 auto;
+  
+  
+}
+
+.flex-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+  padding: 20px;
+}
+
+.flex-footer ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  column-gap: 25px;
+  row-gap: 10px;
+}
+
+.flex-footer ul li {
+  font-size: 12px;
+    line-height: 16px;
+    color: #8e8e8e;
+    font-weight: 400;
+}
+
+.flex-footer ul li .select{
+  width: 100%;
+  height: 0 auto;
+  background-color: transparent;
+  border: 0;
+  color:  #8e8e8e;
+  
+}
+
